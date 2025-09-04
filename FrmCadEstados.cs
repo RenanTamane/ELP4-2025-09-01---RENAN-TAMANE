@@ -38,17 +38,24 @@ namespace ProjetoELP4Paises
             oEstado.Codigo  = Convert.ToInt32(txtCodigo.Text);
             oEstado.Estado  = txtEstado.Text;
             oEstado.Uf      = txtUf.Text;
+<<<<<<< HEAD
             oEstado.OPais.Codigo = Convert.ToInt32(txtCodigoPais.Text);
             oEstado.OPais.Pais = txtPais.Text;
+=======
+>>>>>>> ffa9440768137c691538c511443f828cdbfab332
         }
 
         public override void CarregaTxt()
         {
             this.txtCodigo.Text = Convert.ToString(oEstado.Codigo);
             this.txtEstado.Text = oEstado.Estado;
+<<<<<<< HEAD
             this.txtUf.Text     = Convert.ToString(oEstado.Uf);
             this.txtCodigoPais.Text = Convert.ToString(oEstado.OPais.Codigo);
             this.txtPais.Text = oEstado.OPais.Pais;
+=======
+            this.txtUf.Text     = oEstado.Uf;
+>>>>>>> ffa9440768137c691538c511443f828cdbfab332
         }
 
         public override void LimparTxt()
@@ -56,13 +63,19 @@ namespace ProjetoELP4Paises
             this.txtCodigo.Text = "0";
             this.txtEstado.Clear();
             this.txtUf.Clear();
+<<<<<<< HEAD
             this.txtCodigoPais.Text = "0";
             this.txtPais.Clear();
+=======
+>>>>>>> ffa9440768137c691538c511443f828cdbfab332
         }
 
         public override void BloquearTxt()
         {
+<<<<<<< HEAD
             this.txtCodigo.Enabled = false;
+=======
+>>>>>>> ffa9440768137c691538c511443f828cdbfab332
             this.txtEstado.Enabled = false;
             this.txtUf.Enabled = false;
             this.txtCodigoPais.Enabled = false;
@@ -71,11 +84,16 @@ namespace ProjetoELP4Paises
 
         public override void DesbloquearTxt()
         {
+<<<<<<< HEAD
             this.txtCodigo.Enabled = true;
             this.txtEstado.Enabled = true;
             this.txtUf.Enabled = true;
             this.txtCodigoPais.Enabled = true;
             this.txtPais.Enabled = true;
+=======
+            this.txtEstado.Enabled = true;
+            this.txtUf.Enabled = true;
+>>>>>>> ffa9440768137c691538c511443f828cdbfab332
         }
 
         private void btnBuscar_Click(object sender, EventArgs e)

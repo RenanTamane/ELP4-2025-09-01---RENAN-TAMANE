@@ -20,8 +20,11 @@ namespace ProjetoELP4Paises
 
         protected override void Pesquisar()
         {
+<<<<<<< HEAD
             oFrmCadCidades.ConhecaObj(aCidade, aCtrl);
             oFrmCadCidades.ShowDialog();
+=======
+>>>>>>> ffa9440768137c691538c511443f828cdbfab332
         }
 
         protected override void Incluir()
@@ -34,8 +37,11 @@ namespace ProjetoELP4Paises
         protected override void Alterar()
         {
             oFrmCadCidades.ConhecaObj(aCidade, aCtrl);
+<<<<<<< HEAD
             oFrmCadCidades.LimparTxt();
             oFrmCadCidades.CarregaTxt();
+=======
+>>>>>>> ffa9440768137c691538c511443f828cdbfab332
             oFrmCadCidades.ShowDialog();
         }
 
@@ -50,7 +56,10 @@ namespace ProjetoELP4Paises
             oFrmCadCidades.btnSalvar.Text = "Excluir";
             oFrmCadCidades.ShowDialog();
             oFrmCadCidades.DesbloquearTxt();
+<<<<<<< HEAD
             oFrmCadCidades.btnSalvar.Text = aux;
+=======
+>>>>>>> ffa9440768137c691538c511443f828cdbfab332
 
         }
 

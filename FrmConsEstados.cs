@@ -21,8 +21,11 @@ namespace ProjetoELP4Paises
 
         protected override void Pesquisar()
         {
+<<<<<<< HEAD
             oFrmCadEstados.ConhecaObj(oEstado, aCtrl);
             oFrmCadEstados.ShowDialog();
+=======
+>>>>>>> ffa9440768137c691538c511443f828cdbfab332
         }
 
         protected override void Incluir()
@@ -35,8 +38,11 @@ namespace ProjetoELP4Paises
         protected override void Alterar()
         {
             oFrmCadEstados.ConhecaObj(oEstado, aCtrl);
+<<<<<<< HEAD
             oFrmCadEstados.LimparTxt();
             oFrmCadEstados.CarregaTxt();
+=======
+>>>>>>> ffa9440768137c691538c511443f828cdbfab332
             oFrmCadEstados.ShowDialog();
         }
 
@@ -51,7 +57,10 @@ namespace ProjetoELP4Paises
             oFrmCadEstados.btnSalvar.Text = "Excluir";
             oFrmCadEstados.ShowDialog();
             oFrmCadEstados.DesbloquearTxt();
+<<<<<<< HEAD
             oFrmCadEstados.btnSalvar.Text = aux;
+=======
+>>>>>>> ffa9440768137c691538c511443f828cdbfab332
         }
 
         public override void setFrmCadastro(object obj)

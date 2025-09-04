@@ -50,7 +50,10 @@ namespace ProjetoELP4Paises
             oFrmCadPaises.btnSalvar.Text = "Excluir";
             oFrmCadPaises.ShowDialog();
             oFrmCadPaises.DesbloquearTxt();
+<<<<<<< HEAD
             oFrmCadPaises.btnSalvar.Text = aux;
+=======
+>>>>>>> ffa9440768137c691538c511443f828cdbfab332
         }
 
         public override void setFrmCadastro(object obj)

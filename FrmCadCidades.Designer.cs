@@ -128,7 +128,11 @@
             this.btnBuscar.Location = new System.Drawing.Point(565, 77);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(75, 23);
+<<<<<<< HEAD
             this.btnBuscar.TabIndex = 5;
+=======
+            this.btnBuscar.TabIndex = 18;
+>>>>>>> ffa9440768137c691538c511443f828cdbfab332
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = true;
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);

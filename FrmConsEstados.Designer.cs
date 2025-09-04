@@ -30,9 +30,19 @@
         {
             this.SuspendLayout();
             // 
+<<<<<<< HEAD
             // btnPesquisar
             // 
             this.btnPesquisar.TabIndex = 1;
+=======
+            // btnIncluir
+            // 
+            this.btnIncluir.TabIndex = 3;
+            // 
+            // btnPesquisar
+            // 
+            this.btnPesquisar.TabIndex = 2;
+>>>>>>> ffa9440768137c691538c511443f828cdbfab332
             // 
             // FrmConsEstados
             // 
